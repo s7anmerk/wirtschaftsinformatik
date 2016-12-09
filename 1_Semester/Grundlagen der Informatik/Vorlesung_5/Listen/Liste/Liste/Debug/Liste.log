@@ -1,0 +1,13 @@
+﻿Build started 11.04.2014 10:25:45.
+     1>Project "L:\Grundlagen_Informatik_I\Grundlagen_Informatik_I_2013_2014\Vorlesung_5\Listen\Liste\Liste\Liste.vcxproj" on node 2 (Rebuild target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TC /analyze- /errorReport:prompt Liste.c
+         Liste.c
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"L:\Grundlagen_Informatik_I\Grundlagen_Informatik_I_2013_2014\Vorlesung_5\Listen\Liste\Debug\Liste.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"L:\Grundlagen_Informatik_I\Grundlagen_Informatik_I_2013_2014\Vorlesung_5\Listen\Liste\Debug\Liste.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"L:\Grundlagen_Informatik_I\Grundlagen_Informatik_I_2013_2014\Vorlesung_5\Listen\Liste\Debug\Liste.lib" /MACHINE:X86 Debug\Liste.obj
+         Liste.vcxproj -> L:\Grundlagen_Informatik_I\Grundlagen_Informatik_I_2013_2014\Vorlesung_5\Listen\Liste\Debug\Liste.exe
+     1>Done Building Project "L:\Grundlagen_Informatik_I\Grundlagen_Informatik_I_2013_2014\Vorlesung_5\Listen\Liste\Liste\Liste.vcxproj" (Rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.37

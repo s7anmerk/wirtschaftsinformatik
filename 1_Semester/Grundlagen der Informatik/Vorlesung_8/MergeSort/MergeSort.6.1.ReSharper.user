@@ -1,0 +1,33 @@
+<Configuration>
+  <SettingsComponent>
+    <string />
+    <integer>
+      <setting name="UsedSolutionBuilderID">0</setting>
+    </integer>
+    <boolean>
+      <setting name="SolutionAnalysisEnabled">False</setting>
+    </boolean>
+  </SettingsComponent>
+  <NAntValidationSettings>
+    <NAntPath value="" />
+  </NAntValidationSettings>
+  <RecentFiles>
+    <RecentFiles>
+      <File id="A484E1D7-FD53-40B2-AD4E-90D882464852/f:mergesort.cpp" caret="0" scrollPosition="0|0" />
+    </RecentFiles>
+    <RecentEdits>
+      <File id="A484E1D7-FD53-40B2-AD4E-90D882464852/f:mergesort.cpp" caret="2770" scrollPosition="0|36" />
+      <File id="A484E1D7-FD53-40B2-AD4E-90D882464852/f:mergesort.cpp" caret="386" scrollPosition="0|0" />
+      <File id="A484E1D7-FD53-40B2-AD4E-90D882464852/f:mergesort.cpp" caret="2533" scrollPosition="0|58" />
+      <File id="A484E1D7-FD53-40B2-AD4E-90D882464852/f:mergesort.cpp" caret="793" scrollPosition="0|19" />
+      <File id="A484E1D7-FD53-40B2-AD4E-90D882464852/f:mergesort.cpp" caret="104" scrollPosition="0|0" />
+    </RecentEdits>
+  </RecentFiles>
+  <UnitTestRunner>
+    <CustomStartDirectory />
+    <UseShadowCopy>True</UseShadowCopy>
+    <UseCustomFolder>False</UseCustomFolder>
+    <EnableUnitTesting>True</EnableUnitTesting>
+    <Providers />
+  </UnitTestRunner>
+</Configuration>

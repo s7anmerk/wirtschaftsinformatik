@@ -1,0 +1,16 @@
+import java.awt.*;
+import java.awt.event.*;
+import java.net.*;
+import java.io.*;
+import java.lang.*;
+
+public HeXdumpPanel extends Panel{
+  private TextField tf = new TextField(70);
+  HexDumpArea area = new HexDumpArea(20, 50);
+  
+  ActionListener url1 = new ActionListener(){
+  public void actionPerformed(ActionEvent e){
+      
+      }
+    };
+  }

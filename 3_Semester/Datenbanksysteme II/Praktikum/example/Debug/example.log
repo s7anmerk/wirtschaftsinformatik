@@ -1,0 +1,17 @@
+﻿Der Buildvorgang wurde am 27.10.2016 11:49:56 gestartet.
+     1>Projekt "T:\Temp\Windows\example\example.vcxproj" auf Knoten "2", Build Ziel(e).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:prompt helper.c
+         helper.c
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"T:\Temp\Windows\Debug\example.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"T:\Temp\Windows\Debug\example.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"T:\Temp\Windows\Debug\example.lib" /MACHINE:X86 Debug\Beruf.obj
+         Debug\example.obj
+         Debug\helper.obj
+     1>example.obj : error LNK2005: _getKunden ist bereits in Beruf.obj definiert.
+     1>example.obj : error LNK2005: _main ist bereits in Beruf.obj definiert.
+     1>T:\Temp\Windows\Debug\example.exe : fatal error LNK1169: Mindestens ein mehrfach definiertes Symbol gefunden.
+     1>Die Erstellung des Projekts "T:\Temp\Windows\example\example.vcxproj" ist abgeschlossen, Build Ziel(e) -- FEHLER.
+
+Fehler beim Buildvorgang.
+
+Verstrichene Zeit 00:00:00.38

@@ -1,0 +1,16 @@
+﻿Build started 01.11.2013 12:40:57.
+     1>Project "K:\Grundlagen_Informatik_I\Grundlagen_Informatik_I_2013_2014\Vorlesung_4\prim_iterativ\primes\primes.vcxproj" on node 2 (Rebuild target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TC /analyze- /errorReport:prompt primes.c
+         primes.c
+     1>k:\grundlagen_informatik_i\grundlagen_informatik_i_2013_2014\vorlesung_4\prim_iterativ\primes\primes.c(30): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\stdio.h(290) : see declaration of 'scanf'
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"K:\Grundlagen_Informatik_I\Grundlagen_Informatik_I_2013_2014\Vorlesung_4\prim_iterativ\Debug\primes.exe" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"K:\Grundlagen_Informatik_I\Grundlagen_Informatik_I_2013_2014\Vorlesung_4\prim_iterativ\Debug\primes.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"K:\Grundlagen_Informatik_I\Grundlagen_Informatik_I_2013_2014\Vorlesung_4\prim_iterativ\Debug\primes.lib" /MACHINE:X86 /SAFESEH Debug\primes.obj
+     1>primes.obj : warning LNK4075: ignoring '/EDITANDCONTINUE' due to '/SAFESEH' specification
+         primes.vcxproj -> K:\Grundlagen_Informatik_I\Grundlagen_Informatik_I_2013_2014\Vorlesung_4\prim_iterativ\Debug\primes.exe
+     1>Done Building Project "K:\Grundlagen_Informatik_I\Grundlagen_Informatik_I_2013_2014\Vorlesung_4\prim_iterativ\primes\primes.vcxproj" (Rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.40

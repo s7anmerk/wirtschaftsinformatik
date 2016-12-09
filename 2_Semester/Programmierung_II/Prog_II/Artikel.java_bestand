@@ -1,0 +1,79 @@
+import List;
+
+class Artikel
+{
+  Artikel (String n)
+  { name = n; anzahl = 0; }
+
+  public String toString ()
+    { return name + "\t" + anzahl + "\n";}
+  
+  String name; int anzahl;
+}
+
+class Bestand
+{ Bestand ()
+  { lager = new List(); }
+  
+  private boolean suchen (String s)
+  // liefert true gdw. ein Artikel mit Namen s im Lager ist
+  { lager.reset();
+    while (!lager.isEol())
+    { Artikel a = (Artikel)lager.current();
+      if (s.equals (a.name))
+        return true;
+      lager.advance();
+    }
+    return false;
+  }
+  
+  public int artikelBestand (String n)
+  // neue Methode: liefert den Lagerbestand des angegebenen
+  // Artikels (oder 0, falls nicht vorhanden)
+  {
+    if (suchen (n)) {
+      Artikel a = (Artikel)lager.current();
+      return a.anzahl;
+    }
+    else // Artikel nicht gefunden
+      return 0;
+  }
+
+  public int gesamtBestand ()
+  // neue Methode: summiert Stückzahlen über alle Artikel
+  // im Lager auf
+  { int summe = 0;
+    lager.reset();
+    while (!lager.isEol())
+    { Artikel a = (Artikel)lager.current();
+      summe += a.anzahl;
+      lager.advance();
+    }
+    return summe;
+  }
+
+  public String inhalt ()
+  // Liefert den Lagerbestand als String
+  { String erg = "Lagerbestand:\n";
+    lager.reset();
+    while (!lager.isEol())
+    { erg = erg + (Artikel)lager.current();
+      lager.advance();
+    }
+    return erg;
+  }
+
+  public void kaufen (String n, int stck)
+  // Nach Ausführen sind stck Einheiten des Artikels
+  // mit Namen n mehr im Lager
+  { Artikel a;
+    if (suchen (n))
+      a = (Artikel)lager.current();
+    else
+      { a = new Artikel (n);
+	lager.insert (a);
+      }
+    a.anzahl += stck;
+  }
+  private List lager;
+}

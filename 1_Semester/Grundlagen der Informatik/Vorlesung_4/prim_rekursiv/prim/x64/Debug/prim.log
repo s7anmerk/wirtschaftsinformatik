@@ -1,0 +1,17 @@
+﻿Build started 01.11.2013 13:00:27.
+     1>Project "K:\Grundlagen_Informatik_I\Grundlagen_Informatik_I_2013_2014\Vorlesung_4\prim_rekursiv\prim\prim.vcxproj" on node 2 (Rebuild target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\x86_amd64\CL.exe /c /Zi /nologo /W3 /WX- /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Debug\\" /Fd"x64\Debug\vc110.pdb" /Gd /TC /errorReport:prompt /F 32096000 prim.c
+         prim.c
+     1>prim.c(40): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\stdio.h(290) : see declaration of 'scanf'
+     1>prim.c(41): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\stdio.h(290) : see declaration of 'scanf'
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"K:\Grundlagen_Informatik_I\Grundlagen_Informatik_I_2013_2014\Vorlesung_4\prim_rekursiv\x64\Debug\prim.exe" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"K:\Grundlagen_Informatik_I\Grundlagen_Informatik_I_2013_2014\Vorlesung_4\prim_rekursiv\x64\Debug\prim.pdb" /STACK:"9999999999999999999","9999999999999999999" /LARGEADDRESSAWARE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"K:\Grundlagen_Informatik_I\Grundlagen_Informatik_I_2013_2014\Vorlesung_4\prim_rekursiv\x64\Debug\prim.lib" /MACHINE:X64  x64\Debug\prim.obj
+         prim.vcxproj -> K:\Grundlagen_Informatik_I\Grundlagen_Informatik_I_2013_2014\Vorlesung_4\prim_rekursiv\x64\Debug\prim.exe
+     1>Done Building Project "K:\Grundlagen_Informatik_I\Grundlagen_Informatik_I_2013_2014\Vorlesung_4\prim_rekursiv\prim\prim.vcxproj" (Rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.34

@@ -1,0 +1,39 @@
+
+echo "Zu löschenden Dateien $*"
+
+for i
+do mv $i ~/.muell
+done
+
+cd ~/.muell
+
+      list=$(echo *)
+      if [ "list" = "*" ]
+      then
+      echo "Verzeichnis leer"
+      else
+      echo "Soll .muell geleert werden? (j/n)"
+      read antwort
+
+       while test $antwort != "j" -a $antwort != "n"       #-a steht fuer and
+       do
+       echo j oder n eingeben!
+       read antwort
+       done
+
+     if test $antwort == "j"
+     then
+     echo .muell wird geleert...
+                    for i
+                    do
+                    rm  -r ~/.muell/*
+                    done
+
+       else
+         echo  .muell  wird nicht geleert
+         ls -l ~/.muell
+
+          fi
+          fi
+
+

@@ -1,0 +1,18 @@
+﻿Build started 17.11.2013 23:49:16.
+     1>Project "G:\Grundlagen_Informatik_I\Grundlagen_Informatik_I_2013_2014\Vorlesung_6\Queues\queueliste\queueliste\queueliste.vcxproj" on node 2 (Rebuild target(s)).
+     1>ClCompile:
+         D:\Program Files (x86)\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TC /analyze- /errorReport:prompt queueliste.c
+         queueliste.c
+     1>g:\grundlagen_informatik_i\grundlagen_informatik_i_2013_2014\vorlesung_6\queues\queueliste\queueliste\queueliste.c(62): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\vc\include\stdio.h(290) : see declaration of 'scanf'
+     1>g:\grundlagen_informatik_i\grundlagen_informatik_i_2013_2014\vorlesung_6\queues\queueliste\queueliste\queueliste.c(74): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\vc\include\stdio.h(290) : see declaration of 'scanf'
+       Link:
+         D:\Program Files (x86)\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"G:\Grundlagen_Informatik_I\Grundlagen_Informatik_I_2013_2014\Vorlesung_6\Queues\queueliste\Debug\queueliste.exe" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"G:\Grundlagen_Informatik_I\Grundlagen_Informatik_I_2013_2014\Vorlesung_6\Queues\queueliste\Debug\queueliste.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"G:\Grundlagen_Informatik_I\Grundlagen_Informatik_I_2013_2014\Vorlesung_6\Queues\queueliste\Debug\queueliste.lib" /MACHINE:X86 /SAFESEH Debug\queueliste.obj
+     1>queueliste.obj : warning LNK4075: ignoring '/EDITANDCONTINUE' due to '/SAFESEH' specification
+         queueliste.vcxproj -> G:\Grundlagen_Informatik_I\Grundlagen_Informatik_I_2013_2014\Vorlesung_6\Queues\queueliste\Debug\queueliste.exe
+     1>Done Building Project "G:\Grundlagen_Informatik_I\Grundlagen_Informatik_I_2013_2014\Vorlesung_6\Queues\queueliste\queueliste\queueliste.vcxproj" (Rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.26

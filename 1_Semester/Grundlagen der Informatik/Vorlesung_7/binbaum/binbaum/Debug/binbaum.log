@@ -1,0 +1,16 @@
+﻿Build started 01.12.2014 14:15:31.
+     1>Project "L:\Grundlagen_Informatik_I\Grundlagen_Informatik_I_2013_2014\Vorlesung_7\binbaum\binbaum\binbaum.vcxproj" on node 2 (Rebuild target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:prompt binbaum.c
+         binbaum.c
+     1>l:\grundlagen_informatik_i\grundlagen_informatik_i_2013_2014\vorlesung_7\binbaum\binbaum\binbaum.c(89): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(283) : see declaration of 'scanf'
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"L:\Grundlagen_Informatik_I\Grundlagen_Informatik_I_2013_2014\Vorlesung_7\binbaum\Debug\binbaum.exe" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"L:\Grundlagen_Informatik_I\Grundlagen_Informatik_I_2013_2014\Vorlesung_7\binbaum\Debug\binbaum.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"L:\Grundlagen_Informatik_I\Grundlagen_Informatik_I_2013_2014\Vorlesung_7\binbaum\Debug\binbaum.lib" /MACHINE:X86 /SAFESEH Debug\binbaum.obj
+     1>binbaum.obj : warning LNK4075: ignoring '/EDITANDCONTINUE' due to '/SAFESEH' specification
+         binbaum.vcxproj -> L:\Grundlagen_Informatik_I\Grundlagen_Informatik_I_2013_2014\Vorlesung_7\binbaum\Debug\binbaum.exe
+     1>Done Building Project "L:\Grundlagen_Informatik_I\Grundlagen_Informatik_I_2013_2014\Vorlesung_7\binbaum\binbaum\binbaum.vcxproj" (Rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.42

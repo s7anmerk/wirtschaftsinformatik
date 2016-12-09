@@ -1,0 +1,7 @@
+G:\Grundlagen_Informatik_I\Grundlagen_Informatik_I_2013_2014\Vorlesung_10\DSF\bin\Debug\DSF.exe
+G:\Grundlagen_Informatik_I\Grundlagen_Informatik_I_2013_2014\Vorlesung_10\DSF\bin\Debug\DSF.pdb
+G:\Grundlagen_Informatik_I\Grundlagen_Informatik_I_2013_2014\Vorlesung_10\DSF\obj\Debug\DFS.Form1.resources
+G:\Grundlagen_Informatik_I\Grundlagen_Informatik_I_2013_2014\Vorlesung_10\DSF\obj\Debug\DSF.Properties.Resources.resources
+G:\Grundlagen_Informatik_I\Grundlagen_Informatik_I_2013_2014\Vorlesung_10\DSF\obj\Debug\DFS.csproj.GenerateResource.Cache
+G:\Grundlagen_Informatik_I\Grundlagen_Informatik_I_2013_2014\Vorlesung_10\DSF\obj\Debug\DSF.exe
+G:\Grundlagen_Informatik_I\Grundlagen_Informatik_I_2013_2014\Vorlesung_10\DSF\obj\Debug\DSF.pdb

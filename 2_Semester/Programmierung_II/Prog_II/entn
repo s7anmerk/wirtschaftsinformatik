@@ -1,0 +1,19 @@
+     public void entnahme(){
+
+     if(lagerbestand < entmenge)
+     System.out.println("\nEntnahme nicht möglich: Lagerbestand ueberschritten");
+
+     else {
+     lagerbestand = lagerbestand-entmenge;
+     if(lagerbestand < mindeststueckzahl){
+     System.out.println("Automatische Nachbestellung erfolgt, da der Mindeststückzahl unterschritten worden ist");
+     bestellmenge=mindeststueckzahl - lagerbestand;
+     lagerbestand=lagerbestand + bestellmenge;
+     }
+
+     else {
+     lagerbestand=lagerbestand-entmenge;
+     }
+     }
+     }
+}

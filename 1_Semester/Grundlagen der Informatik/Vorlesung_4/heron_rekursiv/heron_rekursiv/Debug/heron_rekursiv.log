@@ -1,0 +1,17 @@
+﻿Build started 01.11.2013 12:36:38.
+     1>Project "K:\Grundlagen_Informatik_I\Grundlagen_Informatik_I_2013_2014\Vorlesung_4\heron_rekursiv\heron_rekursiv\heron_rekursiv.vcxproj" on node 2 (Rebuild target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TC /analyze- /errorReport:prompt heron_rekursiv.c
+         heron_rekursiv.c
+     1>k:\grundlagen_informatik_i\grundlagen_informatik_i_2013_2014\vorlesung_4\heron_rekursiv\heron_rekursiv\heron_rekursiv.c(21): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\stdio.h(290) : see declaration of 'scanf'
+     1>k:\grundlagen_informatik_i\grundlagen_informatik_i_2013_2014\vorlesung_4\heron_rekursiv\heron_rekursiv\heron_rekursiv.c(26): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\stdio.h(290) : see declaration of 'scanf'
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"K:\Grundlagen_Informatik_I\Grundlagen_Informatik_I_2013_2014\Vorlesung_4\heron_rekursiv\Debug\heron_rekursiv.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"K:\Grundlagen_Informatik_I\Grundlagen_Informatik_I_2013_2014\Vorlesung_4\heron_rekursiv\Debug\heron_rekursiv.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"K:\Grundlagen_Informatik_I\Grundlagen_Informatik_I_2013_2014\Vorlesung_4\heron_rekursiv\Debug\heron_rekursiv.lib" /MACHINE:X86 Debug\heron_rekursiv.obj
+         heron_rekursiv.vcxproj -> K:\Grundlagen_Informatik_I\Grundlagen_Informatik_I_2013_2014\Vorlesung_4\heron_rekursiv\Debug\heron_rekursiv.exe
+     1>Done Building Project "K:\Grundlagen_Informatik_I\Grundlagen_Informatik_I_2013_2014\Vorlesung_4\heron_rekursiv\heron_rekursiv\heron_rekursiv.vcxproj" (Rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.33

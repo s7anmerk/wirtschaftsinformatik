@@ -1,0 +1,19 @@
+﻿Build started 02.12.2013 16:00:38.
+     1>Project "F:\Grundlagen_Informatik_I\Grundlagen_Informatik_I_2013_2014\Vorlesung_8\shellsort1\shellsort1\shellsort1.vcxproj" on node 2 (Build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Debug\shellsort1.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TC /analyze- /errorReport:prompt shellsort1.c
+         shellsort1.c
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"F:\Grundlagen_Informatik_I\Grundlagen_Informatik_I_2013_2014\Vorlesung_8\shellsort1\Debug\shellsort1.exe" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"F:\Grundlagen_Informatik_I\Grundlagen_Informatik_I_2013_2014\Vorlesung_8\shellsort1\Debug\shellsort1.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:\Grundlagen_Informatik_I\Grundlagen_Informatik_I_2013_2014\Vorlesung_8\shellsort1\Debug\shellsort1.lib" /MACHINE:X86 /SAFESEH Debug\shellsort1.obj
+     1>shellsort1.obj : warning LNK4075: ignoring '/EDITANDCONTINUE' due to '/SAFESEH' specification
+         shellsort1.vcxproj -> F:\Grundlagen_Informatik_I\Grundlagen_Informatik_I_2013_2014\Vorlesung_8\shellsort1\Debug\shellsort1.exe
+       FinalizeBuildStatus:
+         Deleting file "Debug\shellsort1.unsuccessfulbuild".
+         Touching "Debug\shellsort1.lastbuildstate".
+     1>Done Building Project "F:\Grundlagen_Informatik_I\Grundlagen_Informatik_I_2013_2014\Vorlesung_8\shellsort1\shellsort1\shellsort1.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.03

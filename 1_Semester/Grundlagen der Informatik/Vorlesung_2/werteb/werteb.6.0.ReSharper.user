@@ -1,0 +1,41 @@
+<Configuration>
+  <SettingsComponent>
+    <string />
+    <integer>
+      <setting name="UsedSolutionBuilderID">0</setting>
+    </integer>
+    <boolean>
+      <setting name="SolutionAnalysisEnabled">False</setting>
+    </boolean>
+  </SettingsComponent>
+  <NAntValidationSettings>
+    <NAntPath value="" />
+  </NAntValidationSettings>
+  <RecentFiles>
+    <RecentFiles>
+      <File id="E062B722-4092-409A-8502-CABF312FAD38/f:werteb.c" caret="0" fromTop="0" />
+    </RecentFiles>
+    <RecentEdits>
+      <File id="E062B722-4092-409A-8502-CABF312FAD38/f:werteb.c" caret="1278" fromTop="5" />
+      <File id="E062B722-4092-409A-8502-CABF312FAD38/f:werteb.c" caret="1410" fromTop="5" />
+      <File id="E062B722-4092-409A-8502-CABF312FAD38/f:werteb.c" caret="378" fromTop="5" />
+      <File id="E062B722-4092-409A-8502-CABF312FAD38/f:werteb.c" caret="2132" fromTop="5" />
+      <File id="E062B722-4092-409A-8502-CABF312FAD38/f:werteb.c" caret="2071" fromTop="5" />
+      <File id="E062B722-4092-409A-8502-CABF312FAD38/f:werteb.c" caret="1672" fromTop="5" />
+      <File id="E062B722-4092-409A-8502-CABF312FAD38/f:werteb.c" caret="2094" fromTop="5" />
+      <File id="E062B722-4092-409A-8502-CABF312FAD38/f:werteb.c" caret="1727" fromTop="5" />
+      <File id="E062B722-4092-409A-8502-CABF312FAD38/f:werteb.c" caret="1197" fromTop="5" />
+      <File id="E062B722-4092-409A-8502-CABF312FAD38/f:werteb.c" caret="3725" fromTop="5" />
+      <File id="E062B722-4092-409A-8502-CABF312FAD38/f:werteb.c" caret="2132" fromTop="5" />
+      <File id="E062B722-4092-409A-8502-CABF312FAD38/f:werteb.c" caret="717" fromTop="5" />
+    </RecentEdits>
+  </RecentFiles>
+  <UnitTestRunner>
+    <Providers />
+  </UnitTestRunner>
+  <UnitTestRunnerNUnit>
+    <NUnitInstallDir IsNull="False">
+    </NUnitInstallDir>
+    <UseAddins>Never</UseAddins>
+  </UnitTestRunnerNUnit>
+</Configuration>

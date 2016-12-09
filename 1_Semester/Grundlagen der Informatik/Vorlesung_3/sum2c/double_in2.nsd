@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root text="&#34;double_in2(int *eof, char *s, char *p, unsigned long n)&#34;" comment="&#34;Funktion zur sicheren Eingabe einer double-Zahl&#34;" color="ffffff" type="sub" style="nice">
+	<children>
+		<alternative text="&#34;(p == 0) ?&#34;" comment="&#34;&#34;" color="ffffff">
+			<qTrue>
+				<instruction text="&#34;print &#34;&#34;Puffer existiert nicht !&#34;&#34;&#34;" comment="&#34;&#34;" color="ffffff" rotated="0"></instruction>
+				<instruction text="&#34;return 0.0&#34;" comment="" color="ffffff" rotated="0"></instruction>
+			</qTrue>
+			<qFalse>
+			</qFalse>
+		</alternative>
+		<alternative text="&#34;(n &#60; 2) ?&#34;" comment="" color="ffffff">
+			<qTrue>
+				<instruction text="&#34;print &#34;&#34;Puffer zu kurz !&#34;&#34;&#34;" comment="&#34;&#34;" color="ffffff" rotated="0"></instruction>
+				<instruction text="&#34;return 0.0&#34;" comment="&#34;&#34;" color="ffffff" rotated="0"></instruction>
+			</qTrue>
+			<qFalse>
+			</qFalse>
+		</alternative>
+		<while text="&#34;while ( 1 )&#34;" comment="&#34;&#34;" color="ffffff">
+			<qWhile>
+				<alternative text="&#34;(s &#60;&#62; 0) ?&#34;" comment="&#34;&#34;" color="ffffff">
+					<qTrue>
+						<instruction text="&#34;print s&#34;" comment="&#34;&#34;" color="ffffff" rotated="0"></instruction>
+					</qTrue>
+					<qFalse>
+					</qFalse>
+				</alternative>
+				<call text="&#34;c = fgets(p, n, stdin)&#34;" comment="&#34;Einlesen Zahl als Zeichenkette nach p mit max. n Zeichen&#34;" color="ffffff"></call>
+				<alternative text="&#34;( stdin = EOF ) ?&#34;" comment="&#34;&#34;" color="ffffff">
+					<qTrue>
+						<instruction text="&#34;*eof = 1&#34;" comment="&#34;&#34;" color="ffffff" rotated="0"></instruction>
+						<instruction text="&#34;return 0.0&#34;" comment="&#34;&#34;" color="ffffff" rotated="0"></instruction>
+					</qTrue>
+					<qFalse>
+					</qFalse>
+				</alternative>
+				<alternative text="&#34;( c == 0 ) ?&#34;" comment="&#34;&#34;" color="ffffff">
+					<qTrue>
+						<instruction text="&#34;print &#34;&#34;erneute Eingabe&#34;&#34;&#34;" comment="&#34;&#34;" color="ffffff" rotated="0"></instruction>
+						<jump text="&#34;goto CONTINUE&#34;" comment="&#34;&#34;" color="ffffff"></jump>
+					</qTrue>
+					<qFalse>
+					</qFalse>
+				</alternative>
+				<call text="&#34;i = sscanf(p,&#34;&#34;%lf&#34;&#34;,&amp;d)&#34;" comment="&#34;&#34;" color="ffffff"></call>
+				<alternative text="&#34;( i == 0 oder i == EOF) ?&#34;" comment="&#34;&#34;" color="ffffff">
+					<qTrue>
+						<instruction text="&#34;print &#34;&#34;Error !&#34;&#34;&#34;" comment="&#34;&#34;" color="ffffff" rotated="0"></instruction>
+						<jump text="&#34;goto CONTINUE&#34;" comment="&#34;&#34;" color="ffffff"></jump>
+					</qTrue>
+					<qFalse>
+					</qFalse>
+				</alternative>
+				<instruction text="&#34;return d&#34;" comment="&#34;&#34;" color="ffffff" rotated="0"></instruction>
+				<instruction text="&#34;CONTINUE:&#34;" comment="&#34;&#34;" color="ffffff" rotated="0"></instruction>
+			</qWhile>
+		</while>
+	</children>
+</root>

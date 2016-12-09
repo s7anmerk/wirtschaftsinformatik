@@ -1,0 +1,13 @@
+﻿Build started 25.11.2013 10:52:22.
+     1>Project "K:\Grundlagen_Informatik_I\Grundlagen_Informatik_I_2013_2014\Vorlesung_8\BubbleSort\bubble\bubble\bubble.vcxproj" on node 2 (Rebuild target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TC /analyze- /errorReport:prompt bubble.c
+         bubble.c
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"K:\Grundlagen_Informatik_I\Grundlagen_Informatik_I_2013_2014\Vorlesung_8\BubbleSort\bubble\Debug\bubble.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"K:\Grundlagen_Informatik_I\Grundlagen_Informatik_I_2013_2014\Vorlesung_8\BubbleSort\bubble\Debug\bubble.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"K:\Grundlagen_Informatik_I\Grundlagen_Informatik_I_2013_2014\Vorlesung_8\BubbleSort\bubble\Debug\bubble.lib" /MACHINE:X86 Debug\bubble.obj
+         bubble.vcxproj -> K:\Grundlagen_Informatik_I\Grundlagen_Informatik_I_2013_2014\Vorlesung_8\BubbleSort\bubble\Debug\bubble.exe
+     1>Done Building Project "K:\Grundlagen_Informatik_I\Grundlagen_Informatik_I_2013_2014\Vorlesung_8\BubbleSort\bubble\bubble\bubble.vcxproj" (Rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.50

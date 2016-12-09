@@ -1,0 +1,17 @@
+﻿Der Buildvorgang wurde am 12.11.2015 21:41:00 gestartet.
+     1>Projekt "J:\Grundlagen_Informatik_I\Grundlagen_Informatik_I_2015_2016\Vorlesung_6\Stapel\stack2\stack2\stack2.vcxproj" auf Knoten "2", Rebuild Ziel(e).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:prompt reverseliste.c stackliste.c
+         stackliste.c
+         reverseliste.c
+         Code wird generiert...
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"J:\Grundlagen_Informatik_I\Grundlagen_Informatik_I_2015_2016\Vorlesung_6\Stapel\stack2\Debug\stack2.exe" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"J:\Grundlagen_Informatik_I\Grundlagen_Informatik_I_2015_2016\Vorlesung_6\Stapel\stack2\Debug\stack2.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"J:\Grundlagen_Informatik_I\Grundlagen_Informatik_I_2015_2016\Vorlesung_6\Stapel\stack2\Debug\stack2.lib" /MACHINE:X86 /SAFESEH Debug\reverseliste.obj
+         Debug\stackliste.obj
+     1>reverseliste.obj : warning LNK4075: /EDITANDCONTINUE wird aufgrund der Angabe von /SAFESEH ignoriert.
+         stack2.vcxproj -> J:\Grundlagen_Informatik_I\Grundlagen_Informatik_I_2015_2016\Vorlesung_6\Stapel\stack2\Debug\stack2.exe
+     1>Die Erstellung von Projekt "J:\Grundlagen_Informatik_I\Grundlagen_Informatik_I_2015_2016\Vorlesung_6\Stapel\stack2\stack2\stack2.vcxproj" ist abgeschlossen (Rebuild Ziel(e)).
+
+Der Buildvorgang wurde erfolgreich ausgeführt.
+
+Verstrichene Zeit 00:00:00.73

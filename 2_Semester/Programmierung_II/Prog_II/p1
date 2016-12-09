@@ -1,0 +1,186 @@
+void entnahme(int menge){
+    if (menge>lagerbestand)
+    System.out.println("Entnahme kann nicht erfolgen, da diese den aktuellen Lagerbestand uebersteigt! \n");
+    else{
+ 
+        int nachbestellung = lagerbestand - menge;
+        if (nachbestellung < mindeststueckzahl){
+    System.out.println("Automatische Nachbestellung erfolgt!");
+
+ 
+    bestellmenge=bestellmenge;  //bestellmenge!!    //mindeststueckzahl-nachbestellung;  
+    lagerbestand=lagerbestand+bestellmenge;}    
+    else{
+    lagerbestand=lagerbestand-menge;            //neuer Lagerbestand wird nicht übernommen!!!...immer der Anfangswert!!
+    }}
+  }
+
+
+http://www.java-forum.org/thema/entnahmefunktion-erstellen.166857/
+
+
+Erste Schritte Entnahmefunktion erstellen
+
+Dieses Thema im Forum "Java Basics - Anfänger-Themen" wurde erstellt von Murksi88, 18. Apr. 2015.
+
+    Murksi88
+    Murksi88
+    Neues Mitglied
+
+        Guten Morgen,
+        ich hoffe ich bin hier richtig und ihr könnt mir irgendwie weiterhelfen?!
+
+        Habe die Aufgabe in einer "Materialdatenbank" eine Entnahmefunktion zu erstellen....über das Terminal werden dabei der Artikelname, die Artikelnummer, der Lagerbestand, die Mindeststueckzahl, die Mengeneinheit und die Bestellmenge eingegeben!
+
+        Nun zu meinem Problem...ich bekomme es einfach nicht hin, das wenn eine aktuelle Nachbestellung ausgelöst wird, dann auch der AKTUELLE Lagerbestand in der Funktion genommen wird :-(!!
+        Jedesmal wird die bestellte Menge auf den anfangs eingegebenen Anfagslagerbestand dazuaddiert!
+
+        Hoffe ihr habt einen Tipp für mich :-(!!?!!
+        Vielen Dank!! VG
+
+
+        hier noch meine Funktion:
+
+        ???:L
+
+        Code (Java):
+        void entnahme(int menge){
+            if (menge>lagerbestand)
+            System.out.println("Entnahme kann nicht erfolgen, da diese den aktuellen Lagerbestand uebersteigt! \n");
+            else{
+         
+                int nachbestellung = lagerbestand - menge;
+                if (nachbestellung < mindeststueckzahl){
+            System.out.println("Automatische Nachbestellung erfolgt!");
+
+         
+            bestellmenge=bestellmenge;  //bestellmenge!!    //mindeststueckzahl-nachbestellung;  
+            lagerbestand=lagerbestand+bestellmenge;}    
+            else{
+            lagerbestand=lagerbestand-menge;            //neuer Lagerbestand wird nicht übernommen!!!...immer der Anfangswert!!
+            }}
+          }
+         
+
+    Zuletzt von einem Moderator bearbeitet: 18. Apr. 2015
+    Murksi88, 18. Apr. 2015
+    #1
+    Murksi88
+    Murksi88
+    Neues Mitglied
+
+        Wenn du Java lernen willst, dann empfehle ich dir --> diese Seite hier (hier klicken)
+        Der Kurs ist einfach Spitze und ich habe innerhalb von wenigen Tagen Java gelernt und schreibe mittlerweile anspruchsvolle Programme. Schau hier --> *Klick*
+        ------------------------
+
+        Vielleicht noch ein kurzes Bsp.
+        gebe als Lagerbestand ein: 40
+        Mindeststueckzahl: 20
+        Bestellmenge: 10
+
+
+        Entnehme dann 25....bleiben 15 übrig und die automatische Nachbestellung erfolgt
+
+        jedoch zeigts mir dann, wenn ich als nächstes 0 entnehme einen Lagerbestand von 40 an?!!!!!
+
+        Ratlos!!!!
+         
+
+    Murksi88, 18. Apr. 2015
+    #2
+    Chloroplast
+    Chloroplast
+    Mitglied
+
+        Danke für deinen Link hier. Ich habe mir das ganze bereits angeschaut. Kann ich nur jedem empfehlen!
+        Für die anderen. Ladet euch den Report herunter. Es lohnt sich echt: hier klicken
+
+        Jetzt aber wieder zurück zur eigentlichen Frage und meine Antwort:
+
+        Also ich hab jetzt noch nicht so ganz verstanden was du überhaupt erreichen willst. du hast eine variable lagerbestand, eine mindeststückzahl fürs nachbestellen und eine mindeststückzahl, wobei der lagerbestand nicht kleiner werden darf als die mindeststückzahl, oder wie?
+        ansonsten wäre ein bisschen mehr code hilfreich, und bitter verwende die java tags wie im Beitrag "Vor dem ersten Posten bitte lesen! "
+         
+
+    Chloroplast, 18. Apr. 2015
+    #3
+    Enceladus271
+    Enceladus271
+    Mitglied
+
+        Wenn die Mindeststückzahl unterschritten wird, machst du nur eine Nachbestellung und vergisst dabei die Menge die entnommen werden soll auch abzuziehen. Also das eine else muss weg. Und btw: Die Menge die nachbestellt wird ist im Allgemeinen nicht immer ausreichend um die Mindeststückzahl zu gewährleisten.
+         
+
+    Enceladus271, 18. Apr. 2015
+    #4
+    Murksi88
+    Murksi88
+    Neues Mitglied
+
+        Hier mal die konkrete Aufgabenstellung:
+
+        Die Mainfunktion:
+        -übernehme die nötigen Argumente von der Kommandozeile,
+        -erzeuge mit den übergebenen Argumenten ein Objekt der Klasse MaterialArtikel,
+
+        Zusatz:
+        Schreiben Sie in der Main-Funktion ein kleines Menue, um den Materialbestand zu verringern (Materialentnahme) und bei Unterschreitung der Mindestbestellmenge eine Nachbestellung auszulösen.
+
+        ...vielleicht ist mein Problem damit verständlicher?!!???
+         
+
+    Murksi88, 18. Apr. 2015
+    #5
+    Chloroplast
+    Chloroplast
+    Mitglied
+
+        bei unterschreitung der mindestbestellmenge eine nachbestellung... das klingt irgentwie komisch.
+        Aber ja, enceladus hat recht, du ziehst das nirgentwo ab.
+        zum problem dass die mindestbestellmenge nicht unbedingt ausreichend ist: man könnte zb. eine while schleife benutzen, die solange nachbestellt bis wieder eine mindestmenge verfügbar ist.
+        auch könnte man mittel return gleich abbrechen wenn zuviel versucht wird zu entnehmen, das würde den code etwas übersichtlicher halten.
+        Und ich frage mich wozu die zeile
+        Code (Text):
+        bestellmenge=bestellmenge;
+        gut sein soll.
+        LG Chloroplast
+         
+
+    Chloroplast, 18. Apr. 2015
+    #6
+    Murksi88
+    Murksi88
+    Neues Mitglied
+
+        Problem ist halt wirklich das die erste Entnahme eben nicht abgezogen wird und eben dieser Zwischenwert des Lagerbestandes nicht "gespeichert" wird, sondern die Nachbestellung immer auf den eingegebenen Anfangslagerbestand addiert wird!
+
+        Weiß eben aber nicht wo genau da mein (Denk-)Fehler liegt :-(!!
+         
+
+    Murksi88, 18. Apr. 2015
+    #7
+    Murksi88
+    Murksi88
+    Neues Mitglied
+
+        Ihr habt recht :)!!!
+        Jetzt funktioniert es!! Ich danke Euch vielmals!!
+
+        VG :)
+         
+
+    Murksi88, 18. Apr. 2015
+    #8
+    Chloroplast
+    Chloroplast
+    Mitglied
+
+        nachbestellung ist bei dir lagerbestand - menge. ich würde sagen das ist eher der restbestand. dann wird nachbestellt sobal der restbestand kleiner ist als die mindeststückmenge, soweit auch noch logisch. dann kommt die zeile mit bestellmenge = bestellmenge. die mach so überhaupt keinen sinn. das was mindestens bestellt werden muss ist die differenz wie du schon geschrieben hast (aber auskommentiert hast). wobei das was im endeffekt bestellt wird ja eine mindestzahl hat (wenn ich das richtig verstanden habe), dh. da muss man nochmal rangehen.
+
+        und dann das letzte else - hier ziehst du die bestellte menge ab, falls die bedingung im if falsch ist. du ziehst also nur auch die bestellte menge ab wenn der restbestand kleiner als der mindestbestand ist.
+
+        Ich würde als allererstes nach der ersten bedingung, dass man nur das abziehen kann was man auch hat, sofort die menge vom lager abziehen. und danach erst wird sich ums auffüllen gekümmert.
+
+        LG Chloroplast
+
+        Nachtrag:
+        Ich würde die variablen anders benennen, so ist das ein wenig verwirrend. restbestand würde sich zum beispiel anbieten. und wie geschrieben muss man noch aufpassen wieviel genau nachbestellt wird. 
