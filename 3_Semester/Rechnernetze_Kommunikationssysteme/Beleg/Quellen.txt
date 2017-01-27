@@ -1,0 +1,11 @@
+http://www2.htw-dresden.de/~skuehn/VL/rnks/8_Sockets.pdf 
+https://msdn.microsoft.com/en-us/library/windows/desktop/ms737593(v=vs.85).aspx
+https://msdn.microsoft.com/de-de/library/windows/desktop/ms740668(v=vs.85).aspx 
+http://de.wikipedia.org/wiki/Framebuffer
+http://www.computerbase.de/forum/showthread.php?t=1234951
+http://stackoverflow.com/questions/14386/fopen-deprecated-warning
+http://de.wikipedia.org/wiki/Localhost
+http://www.pug.org/mediawiki/index.php/Einf%C3%BChrung_in_die_Netzwerkprogrammierung 
+http://www.pug.org/mediawiki/index.php/Einf%C3%BChrung_in_die_Netzwerkprogrammierung:tcpclient_v6.c 
+http://www.pug.org/mediawiki/index.php/Einf%C3%BChrung_in_die_Netzwerkprogrammierung:tcpserver_v6.c 
+https://www.tobscore.com/socket-programmierung-in-c/
