@@ -1,0 +1,2 @@
+define(["require","exports","external/rsvp","modules/clean/ajax"],function(e,r,t,n){"use strict";var s=function(e,r){var s=function(t,s){n.WebRequest({url:e,type:"POST",dataType:"json",data:r,success:t,error:function(e,r,t){return s(Error(t))}})};return new t.Promise(function(e,r){s(e,r)})};r.fetchStatuses=function(e,r){return s("/starred/get_status",{role:e,resources_json:JSON.stringify(r)})},r.update=function(e,r,t,n){return s("/starred/update",{role:e,resource_id:r,id_type:t,is_starred:n})}});
+//# sourceMappingURL=api.min.js-vflo4dSp0.map

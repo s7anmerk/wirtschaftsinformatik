@@ -1,0 +1,2 @@
+define(["require","exports"],function(A,S){"use strict";S.StarredLoadingState={LOADING:"LOADING",LOAD_SUCCESS:"LOAD_SUCCESS",LOAD_FAILED:"LOAD_FAILED"},S.StarredActionTypes={LOADING:"STARRED_LOADING",SET_STATUS:"STARRED_SET_STATUS",LOAD_FAILURE:"STARRED_LOAD_FAILURE"}});
+//# sourceMappingURL=constants.min.js-vfl7SieV8.map

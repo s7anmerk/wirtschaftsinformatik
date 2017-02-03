@@ -1,0 +1,12 @@
+﻿Der Buildvorgang wurde am 30.01.2017 23:00:41 gestartet.
+     1>Projekt "C:\Users\Anxhela\Desktop\wirtschaftsinformatik\3_Semester\Rechnernetze_Kommunikationssysteme\Beleg\client\client\client.vcxproj" auf Knoten "2", Rebuild Ziel(e).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:prompt client.c
+         client.c
+     1>c:\users\anxhela\desktop\wirtschaftsinformatik\3_semester\rechnernetze_kommunikationssysteme\beleg\client\client\client.c(22): error C2373: "gethostname": Neudefinition; unterschiedliche Modifizierer
+         c:\program files (x86)\windows kits\8.1\include\um\winsock2.h(2255): note: Siehe Deklaration von "gethostname"
+     1>Die Erstellung des Projekts "C:\Users\Anxhela\Desktop\wirtschaftsinformatik\3_Semester\Rechnernetze_Kommunikationssysteme\Beleg\client\client\client.vcxproj" ist abgeschlossen, Rebuild Ziel(e) -- FEHLER.
+
+Fehler beim Buildvorgang.
+
+Verstrichene Zeit 00:00:08.47

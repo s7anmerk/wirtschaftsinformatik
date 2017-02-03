@@ -1,0 +1,2 @@
+define(["require","exports","modules/core/browser"],function(e,n,r){"use strict";function i(){var e=r.get_uri();return e.getQuery().cak}function t(){var e=r.get_uri();e.removeQuery("cak"),window.history.replaceState(null,"",e.toString())}function o(e){var n=i();n&&(t(),e.revealCommentInPane({activityKey:n,expandConversation:!0}),e.revealAnnotationInPreview(n))}function a(){t()}function u(){t()}n.onPreviewAndCommentsReady=o,n.onFileViewerFlip=a,n.onFileViewerClose=u});
+//# sourceMappingURL=url_handler.min.js-vflDX136N.map

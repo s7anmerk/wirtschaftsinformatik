@@ -1,0 +1,2 @@
+define(["require","exports","external/es6-promise","modules/core/exception"],function(e,r,o,s){"use strict";r.Promise=o.Promise,o.Promise.onerror=function(e){console.error(e&&e.stack?e.stack:e),e instanceof Error&&s.reportException({err:e})}});
+//# sourceMappingURL=es6-promise.min.js-vflcmiGFu.map

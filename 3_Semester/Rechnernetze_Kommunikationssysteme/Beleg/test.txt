@@ -1,0 +1,38 @@
+Rechnernetz
+
+Ein Rechnernetz ist ein Zusammenschluss verschiedener technischer, 
+primär selbstständiger elektronischer Systeme (insbesondere Computer, 
+aber auch Sensoren, Aktoren, Agenten und sonstiger funktechnischer Komponenten usw.), 
+der die Kommunikation der einzelnen Systeme untereinander ermöglicht. Ziel ist hierbei z. B. 
+die gemeinsame Nutzung von Ressourcen wie Netzwerkdruckern, Servern, Mediendateien und Datenbanken. 
+Wichtig ist auch die Möglichkeit zur zentralen Verwaltung von Netzwerkgeräten, Netzwerkbenutzern, deren Berechtigungen 
+und Daten. Besondere Bedeutung hat heute auch die direkte Kommunikation zwischen den Netzwerkbenutzern 
+(Chat, VoIP-Telefonie etc.).
+
+Die Kommunikation erfolgt über verschiedene Protokolle, die mit dem ISO/OSI-Modell 
+strukturiert werden können. Obwohl in der Praxis kein Rechnernetz das ISO/OSI-Modell 
+vollständig abbildet, ist es von entscheidender Bedeutung für das Verständnis von Rechnernetzen, 
+da hierbei aus kleinen grundlegenden Strukturen durch Verknüpfung größere und komplexere 
+Strukturen gebildet werden. Dabei greifen höhere (komplexere) Protokollschichten auf die Funktionalitäten 
+einfacherer darunter liegender Protokollschichten zu.
+
+Ein wichtiges Prinzip dabei ist,
+ dass den meisten Protokollschichten jeweils (Nutz-)Daten zum Transport übergeben werden können. 
+Die Protokollschicht fügt zu diesen Nutzdaten (deren Inhalt sie weitgehend ignoriert) vorne und teilweise hinten 
+weitere Daten an, die für die Abwicklung des Transportes durch die Protokollschicht wichtig sind. 
+Jedoch gibt es auch hiervon Ausnahmen, da einige Protokolle nicht dazu gedacht sind, 
+fremde Nutzdaten zu transportieren, sondern ausschließlich als eigenständige Informationssysteme 
+für bestimmte Aufgaben fungieren.
+
+Die allgemein bekannteste Netzstruktur ist das Internet und die bekanntesten Protokolle sind das
+TCP (Transmission Control Protocol) und das IP (Internet Protocol), jedoch spielt auch 
+im Internet eine Reihe weiterer Protokolle wichtige Rollen und das 
+Internet selbst ist kein homogenes Netz, sondern besteht aus 
+einer Vielzahl teils recht unterschiedlich konzipierter Teilnetze, 
+die nur die oberen Protokollschichten gemeinsam haben und die Nutzdatenübertragung auf den unteren 
+Protokollschichten teilweise sehr unterschiedlich handhaben.
+
+Rechnernetze können unter anderem anhand der folgenden Kriterien klassifiziert werden:
+
+    organisatorische Abdeckung,
+    Übertragungsweg bzw. Übertragungstechnologie.
