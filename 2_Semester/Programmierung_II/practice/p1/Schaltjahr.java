@@ -1,8 +1,8 @@
 public class Schaltjahr{
   public static void main(String [] args){
-    int tag = 22;
+    int tag = 2;
     int monat = 3;
-    int jahr= 2016;
+    int jahr= 1996;
     int i;
     int anzahl_tagen = 0;
     int februar = 0;
